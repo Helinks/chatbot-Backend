@@ -4,7 +4,7 @@ const app = express();
 app.use(express.json());
 
 app.get('/webhook', (req, res) => {
-   const VERIFY_TOKEN = process.env.VERIFY_TOKEN;
+   const VERIFY_TOKEN = mibotchat;
 
   const mode = req.query['hub.mode'];
   const token = req.query['hub.verify_token'];
