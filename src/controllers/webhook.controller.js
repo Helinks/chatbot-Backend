@@ -1,4 +1,4 @@
-const botFlow = require('../bot/flow');
+const botFlow = require('../bot/botFlow');
 
 exports.verify = (req,res)=>{
     const VERIFY_TOKEN=process.env.VERIFY_TOKEN;
